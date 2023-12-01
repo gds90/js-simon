@@ -39,7 +39,7 @@ while (randomNumbers.length < 5){
 // tramite la funzione Timeout, imposto un timer di 30 secondi; dopo i 30 secondi la lista dei 5 numeri casuali sparisce
 setTimeout(function(){
     document.getElementById('box_random_num').classList.add('d-none');
-}, 3000);
+}, 30000);
 
 // a quel punto, dopo che i numeri sono spariti, dopo 5 secondi chiedo tramite prompt all'utente di inserire un numero, per 5 volte;
 let user_numbers = [];
@@ -89,7 +89,7 @@ setTimeout(function(){
 
     // mostro all'utente il totale dei punti totalizzati
     total_points.innerText = `Hai totalizzato ${points} punti!`
-}, 3500);
+}, 35000);
 
 // recupero gli elementi HTML dove inserire i numeri indovinati dall'utente e il punteggio totale
 const total_points = document.getElementById('points');
