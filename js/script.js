@@ -89,7 +89,7 @@ setTimeout(function(){
 
     // mostro all'utente il totale dei punti totalizzati
     total_points.innerText = `Hai totalizzato ${points} punti!`
-}, 35000);
+}, 33000);
 
 
 
