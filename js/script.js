@@ -77,7 +77,7 @@ setTimeout(function(){
     const guessed_number_list = document.getElementById ('guessed_num_list')
 
     // tramite un ciclo for mostro in HTML la lista dei numeri indovinati dall'utente 
-    for (i = 0; i < guessed_number.length; i++){
+    for (let i = 0; i < guessed_number.length; i++){
         const li = document.createElement('li');
         li.innerText = guessed_number[i];
         guessed_number_list.appendChild(li);
