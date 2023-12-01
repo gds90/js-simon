@@ -91,10 +91,6 @@ setTimeout(function(){
     total_points.innerText = `Hai totalizzato ${points} punti!`
 }, 35000);
 
-// recupero gli elementi HTML dove inserire i numeri indovinati dall'utente e il punteggio totale
-const total_points = document.getElementById('points');
-const guessed_number_list = document.getElementById('guessed_num_list')
-
 
 
 
