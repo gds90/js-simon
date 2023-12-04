@@ -20,6 +20,7 @@ const randomNumber_list = document.getElementById('random_num_list');
 // genero 5 numeri casuali e li inserisco in un array
 let randomNumbers = [];
 
+// eseguo un ciclo che finisce solo una volta che l'array randomNumbers avrà lunghezza 5
 while (randomNumbers.length < 5){
     let randomNumber = Math.floor(Math.random() * 100 + 1)
 
@@ -44,11 +45,13 @@ setTimeout(function(){
 // a quel punto, dopo che i numeri sono spariti, dopo 5 secondi chiedo tramite prompt all'utente di inserire un numero, per 5 volte;
 let user_numbers = [];
 
-// dichiaro due variabili che mi serviranno per contare i punti totalizzati dall'utente e quali numeri indovinerà
-let points = 0;
-let guessed_number = [];
 
 setTimeout(function(){
+    // dichiaro due variabili che mi serviranno per contare i punti totalizzati dall'utente e quali numeri indovinerà
+    let points = 0;
+    let guessed_number = [];
+
+    // eseguo un ciclo while che finisce solo una volta che l'array dei numeri scelti dall'utente avrà lunghezza 5
     while (user_numbers.length < 5){
         let user_number = parseInt(prompt('Inserisci un numero che era presente nella lista'));
 
