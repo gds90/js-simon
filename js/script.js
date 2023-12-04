@@ -43,10 +43,13 @@ setTimeout(function(){
 }, 30000);
 
 // a quel punto, dopo che i numeri sono spariti, dopo 5 secondi chiedo tramite prompt all'utente di inserire un numero, per 5 volte;
-let user_numbers = [];
 
 
 setTimeout(function(){
+    
+    // dichiaro un'array che mi conterrà i numeri scelti dall'utente
+    let user_numbers = [];
+    
     // dichiaro due variabili che mi serviranno per contare i punti totalizzati dall'utente e quali numeri indovinerà
     let points = 0;
     let guessed_number = [];
